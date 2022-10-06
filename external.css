@@ -2,5 +2,16 @@
 
 
 h1 {
-    color: blue;
+    color: red;
+    font-size: '20px';
+    text-align: center;
+   
+}
+
+body{
+    /* Absolute Path
+    background-image: url('https://i.pinimg.com/originals/69/0e/f5/690ef59d7ffade174cda54d75b578553.gif'); */
+
+    /* Relative Path */
+    background-image: url('butterfly.gif');
 }
