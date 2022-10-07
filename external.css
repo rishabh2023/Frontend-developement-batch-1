@@ -5,7 +5,12 @@ h1 {
     color: red;
     font-size: '20px';
     text-align: center;
+    text-decoration-line: overline;
    
+}
+
+h2 {
+    text-decoration-line: line-through;
 }
 
 body{
@@ -14,4 +19,16 @@ body{
 
     /* Relative Path */
     background-image: url('butterfly.gif');
+    /* this will not repeat the background */
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-position: right top;
+    /* background-position: left top; */
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+
+    
+
 }
